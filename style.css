@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;1,200&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: 'Barlow', sans-serif;
+}
+
+.main {
+  background: #303031;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-image {
+  text-align: center;
+  padding: 10% 0 6% 0
+}
+
+.header-image img {
+  width: 50%;
+  box-shadow: 0 0 1rem;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+}
+
+.button-container button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  background: #515368;
+  border: white;
+  margin: 5%;
+  color: white; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-angle-down {
+  color: white;
+}
+
+.down-slide {
+  display: flex;
+  justify-content: center;
+  margin: 30% 0 0 0;
+}
+
+.down-slide button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.aboutme {
+  background: #3E3F4A;
+  box-shadow: 0 0 1rem;
+}
+
+.aboutme h2 {
+  padding: 0.7rem 0 0 0.5rem;
+  font-size: 2.7rem;
+}
+
+.aboutme p {
+  padding: 0.6rem 0.6rem 1rem 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.aboutme p, h2 {
+  color: white;
+}
+
+.aboutme img {
+  padding: 1rem 0 0 0.5rem;
+  width: 18%;
+}
+
+.aboutme img, h2 {
+  display: inline;
+}
+
+.sub-header {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  padding: 0.5rem 0 0 0;
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+}
